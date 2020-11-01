@@ -1,66 +1,150 @@
 h1 {
-    font-family: sans-serif;
-    font-size: 72px;
-    color: #ffffff;
-    margin: 0 auto;
-    z-index: 1000;
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 h2 {
-    color: #007765;
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 64px;
+  color: #007765;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 64px;
+  margin: 0;
+  padding: 48px 0 16px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin: 0 55px;
 }
 
 body {
-    width: 1219px;
-    padding: 0 55px;
-    margin: 0 auto;
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
 }
 
 .container {
-    overflow:hidden;
+  background: #eeeeee;
+  padding-top: 129px;
 }
 
 .header {
-    position: fixed;
-    background: #007765;
-    width: 1219px;
-    display: inline-block;    
-    
+  position: fixed;
+  background: #007765;
+  width: 1219px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
-    width: 184px;
-    height: 45px;
-    margin: 20px 0 30px 55px;
-    box-sizing: border-box;
+  display: flex;
+  padding: 20px 0 19px 55px;
 }
 
 .nav {
-    float: right;
-    padding-bottom: 40px;
-    
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 29px 54px 26px 0;
 }
 
-.nav > a, .nav > span  {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 24px;
+.nav > a,
+.nav > span {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0 8px;
 }
 
+#mainImg {
+  background: url("image_2.png");
+  background-size: cover;
+  height: 403px;
+  display: flex;
+  justify-content: center;
+}
 
-
-
-.mainImg {
-    background: url("image_2.png") no-repeat;
-    background-size: cover;
-    height: 403px;
+#problem > p {
+    padding-bottom: 37px;
 }
 
 .second {
-    background: url("image.png") no-repeat;
-    background-size: cover;
-    height: 403px;
+  background: url("image.png");
+  background-size: cover;
+  height: 483px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.second > p {
+  color: #ffffff;
+  font-size: 48px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0 163px;
+}
+
+#intro {
+  background: #ffffff;
+  padding-bottom: 55px;
+}
+#intro p {
+  padding-bottom: 37px;
+}
+#intro img {
+  float: left;
+  width: 115px;
+  height: 115px;
+  padding: 0 55px;
+}
+
+#team { 
+  max-width: 1219px;
+  padding: 0 0 24px 55px;
+}
+#team > .employee {
+  display: inline-block;
+  width: 350px;
+  padding-bottom: 70px;
+}
+.employee > span {
+  display: block;
+  text-align: center;
+}
+#name {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #007765;
+}
+#prof {
+  font-size: 18px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+#team img {
+  max-width: 168px;
+  max-height: 168px;
+  display: block;
+  margin: 0 auto; 
+}
+
+.footer {
+  background: #333333;
+}
+
+.footer > p {
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 48px 339px 64px 340px;
 }
